@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    border: 0;
+    background: rgb(241, 237, 237);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-image: url('backgorund.png');
+    background-size: cover;
+    border-top: 18px solid black;
+    border-bottom: 70px solid black;
+    border-right: 40px solid black;
+    border-left: 40px solid black;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+h1 {
+    background: transparent;
+}
+
+ul {
+    margin-top: 20px;
+    background: transparent;
+}
+
+ul li {
+    margin-top: 15px;
+    background: transparent;
+}
+
+li#insta {
+    list-style-image: url('Insta.png');
+}
+
+li#twitter {
+    list-style-image: url('Twitter.png');
+}
+
+li#youtube {
+    list-style-image: url('Youtube.png');
+}
